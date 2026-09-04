@@ -165,6 +165,10 @@ if (i + 1) % 100 == 0:
             plt.show()
 
     
+# WORKING PRINCIPLE
+
+The Generator takes a random noise vector as input and produces a synthetic image. The Discriminator receives both real images from the CIFAR-10 dataset and generated images, and predicts whether each image is real or fake. During training, the Generator tries to produce images that can fool the Discriminator, while the Discriminator learns to correctly identify real and generated images. This process is repeated for several iterations until the Generator produces increasingly realistic images.
+            <img width="2048" height="1422" alt="image" src="https://github.com/user-attachments/assets/5dcfb007-832b-4c52-a087-1644408827fa" />
 
 
 ## Conclusion:
